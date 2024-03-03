@@ -6,21 +6,21 @@
 ----
 ### Compilar en Windows con:
 
-```batch bach
+```batch 
 nasm -f elf -o AndOperation.o AndOperation.asm
 gcc -m32 -o calc.exe calc.c AndOperation.o
 ```
 y ejecutar con
-```batch bach
+```batch 
 .\calc.exe
 ```
 ### Compilar en Linux con:
 
-```batch bach
+```bash
 nasm -f elf -o AndOperation.o AndOperation.asm
 gcc -m32 -o calc.bin calc.c AndOperation.o
 ```
 y ejecutar con
-```batch bach
+```bash
 ./calc.bin
 ```
